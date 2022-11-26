@@ -2,6 +2,9 @@ import os
 
 from flask import Flask, request
 import pymongo
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
